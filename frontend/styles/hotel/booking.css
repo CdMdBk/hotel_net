@@ -1,0 +1,98 @@
+.dialog {
+  background-color: rgba(255,255,255,0);
+  overflow: hidden;
+}
+
+.dialog__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.dialog__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 500px;
+  padding: 40px 20px;
+
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.dialog__number,
+.dialog__fieldset {
+  margin-bottom: 40px;
+}
+
+.dialog__fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog__caption,
+.dialog__text,
+.dialog__total-cost {
+  color: var(--blue-color);
+}
+
+.dialog__caption {
+  width: 100%;
+  margin-bottom: 20px;
+
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.dialog__fieldset span {
+  padding: 0 20px;
+
+  font-size: 3rem;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.dialog__input {
+  padding: 16px 32px;
+
+  border: 2px solid var(--orange-color);
+  border-radius: 10px;
+
+  color: var(--blue-color);
+  outline: none;
+}
+
+.dialog__fieldset [type="checkbox"] {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.dialog__text {
+  padding: 0 20px;
+}
+
+.dialog__total-cost {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.dialog__submit {
+  padding: 16px 32px;
+
+  background-color: var(--orange-color);
+  border-radius: 30px;
+
+  color: #fff;
+  cursor: pointer;
+  transition: var(--animation-time);
+}
+
+.dialog__submit:hover {
+  background-color: var(--blue-color);
+}

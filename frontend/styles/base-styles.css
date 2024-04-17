@@ -1,0 +1,50 @@
+/* variables */
+
+:root {
+  --blue-color: #00A8DD;
+  --orange-color: #ED6D30;
+  --green-color: #00D63C;
+  --inactive-color: #441400;
+
+  --animation-time: .4s;
+}
+
+/* base-style */
+
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  box-sizing: border-box;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* mixes */
+
+/* text selection */
+
+::selection {
+  background-color: var(--orange-color);
+}
+
+::-moz-selection {
+  background-color: var(--orange-color);
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue-color);
+}

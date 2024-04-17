@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 100%;
+  padding: 40px 160px;
+
+  background-color: var(--blue-color);
+}
+
+.footer__list {
+  width: 25%;
+
+  list-style-type: none;
+}
+
+.footer__li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer__text {
+  font-size: .8rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 30px;
+}
